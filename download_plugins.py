@@ -1,8 +1,14 @@
+import codecs
+import json
 import os
-import requests
 import shutil
+import zipfile
+from pprint import pprint
 
-if __name__ == "__main__":
+import requests
+
+
+def download():
     url = "https://api.getwox.com/plugin/?page_size=100"
     base_url_for_file = "https://api.getwox.com/media/"
     r = requests.get(url, verify=False)
@@ -25,3 +31,35 @@ if __name__ == "__main__":
             os.remove(plugin_file_path)
         with open(plugin_file_path, 'wb') as f:
             shutil.copyfileobj(plugin_downloaded.raw, f)
+
+
+def extract_dll():
+    dir_path = "csharp"
+    dll_path = 'dll'
+    if not os.path.exists(dll_path):
+        os.makedirs(dll_path)
+
+    for file_name in os.listdir(dir_path):
+        file_path = os.path.join(dir_path, file_name)
+        with zipfile.ZipFile(file_path, "r") as z:
+            with z.open('plugin.json', 'rU') as j:
+                reader = codecs.getreader("utf-8-sig")
+                config = json.load(reader(j))
+                execute_file_name = config['ExecuteFileName']
+
+                base_name = ""
+                for name in z.namelist():
+                    if name.lower() == execute_file_name.lower():
+                        base_name = name[:-3]
+                if base_name == "":
+                    raise ValueError("error")
+                if base_name != "":
+                    for extension in ['dll', 'pdb', "dll.config"]:
+                        name = "{}{}".format(base_name, extension)
+                        if name in z.namelist():
+                            z.extract(name, dll_path)
+
+
+if __name__ == "__main__":
+    # download()
+    extract_dll()
