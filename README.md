@@ -1,7 +1,8 @@
 # Wox.Data
 Collect data for Wox plugins and do dome statistics
 
-# Unused Methods
+# Unused member analysis for `Wox.Plugin` (C#)
+## Unused Methods
 
 | Type                                           | Member                           |
 | ---------------------------------------------- | -------------------------------- |
@@ -140,7 +141,7 @@ Collect data for Wox plugins and do dome statistics
 | `Wox.Plugin.WoxQueryEventArgs`                 | `set_Query`                      |
 
 
-# Unused Fields
+## Unused Fields
 
 | Type               | Member                     |
 | ------------------ | -------------------------- |
@@ -149,7 +150,7 @@ Collect data for Wox plugins and do dome statistics
 | `Wox.Plugin.Query` | `TermSeperater`            |
 
 
-# Unused Interfaces
+## Unused Interfaces
 
 | Type |
 | ---- |
