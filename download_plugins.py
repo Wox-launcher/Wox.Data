@@ -35,7 +35,7 @@ def download():
 
 def extract_dll():
     dir_path = "csharp"
-    dll_path = 'dll'
+    dll_path = 'DLLs'
     if not os.path.exists(dll_path):
         os.makedirs(dll_path)
 
@@ -50,14 +50,7 @@ def extract_dll():
                 base_name = ""
                 for name in z.namelist():
                     if name.lower() == execute_file_name.lower():
-                        base_name = name[:-3]
-                if base_name == "":
-                    raise ValueError("error")
-                if base_name != "":
-                    for extension in ['dll', 'pdb', "dll.config"]:
-                        name = "{}{}".format(base_name, extension)
-                        if name in z.namelist():
-                            z.extract(name, dll_path)
+                        z.extract(name, dll_path)
 
 
 if __name__ == "__main__":
