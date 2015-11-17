@@ -27,8 +27,10 @@ namespace Wox.Data
             var unusedMethods = UnusedMember<MethodReference>(instructions, targetMethods);
             var unusedFields = UnusedMember<FieldReference>(instructions, targetFields);
             var unusedInterfaces = UnusedInterfaces(types, targetInterface);
-            var table = TableFromDictionary(unusedMethods);
-            table = table + TableFromDictionary(unusedFields);
+            var formattedUnusedMethods = TableFromDictionary(unusedMethods);
+            var formattedUnusedFieleds = TableFromDictionary(unusedFields);
+            var formattedUnusedInterfaces = string.Join(Environment.NewLine, unusedInterfaces.Select(i => $"|`{i.FullName}`|").ToList());
+
         }
 
         private string TableFromDictionary(Dictionary<TypeReference, List<MemberReference>> dict)
@@ -36,8 +38,9 @@ namespace Wox.Data
             string table = "";
             int firstColumnWidth = dict.Keys.Max(k => k.FullName.Length);
             int secondColumnWidth = dict.Values.SelectMany(v => v).Max(k => k.Name.Length);
-            string head = $"| Type{new string(' ', firstColumnWidth - 4)} | Member{new string(' ', secondColumnWidth - 6)} |{Environment.NewLine}" +
-                          $"| {new string('-', firstColumnWidth)} | {new string('-', secondColumnWidth)} |{Environment.NewLine}";
+            // + 2 is used for code block seperator: ` `
+            string head = $"| Type{new string(' ', firstColumnWidth - 4 + 2)} | Member{new string(' ', secondColumnWidth - 6 + 2)} |{Environment.NewLine}" +
+                          $"| {new string('-', firstColumnWidth + 2)} | {new string('-', secondColumnWidth + 2)} |{Environment.NewLine}";
             table = table + head;
             foreach (var type in dict.Keys.OrderBy(k => k.FullName))
             {
@@ -45,8 +48,8 @@ namespace Wox.Data
                 {
                     string firstColumnComplement = new string(' ', firstColumnWidth - type.FullName.Length);
                     string secondColumnComplement = new string(' ', secondColumnWidth - member.Name.Length);
-                    string line = $"| {type.FullName}{firstColumnComplement} " +
-                                  $"| {member.Name}{secondColumnComplement} |{Environment.NewLine}";
+                    string line = $"| `{type.FullName}`{firstColumnComplement} " +
+                                  $"| `{member.Name}`{secondColumnComplement} |{Environment.NewLine}";
                     table = table + line;
                 }
             }
