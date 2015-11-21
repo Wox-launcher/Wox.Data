@@ -113,7 +113,8 @@ namespace Wox.Data
         public static void Main(string[] args)
         {
             var p = new Program();
-            p.AnalysisTargetModule($@"{TargetDLLsDirectory}\Wox.Plugin.dll");
+            p.AnalysisTargetModule(Path.Combine(TargetDLLsDirectory, "Wox.Plugin.dll"));
+            p.AnalysisTargetModule(Path.Combine(TargetDLLsDirectory, "Wox.Infrastructure.dll"));
         }
     }
 

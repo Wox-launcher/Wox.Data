@@ -1,0 +1,498 @@
+file_name = youdao-2f3f079d-81c0-4ae6-a94c-8521982b1408.wox
+github = https://github.com/qianlifeng/wox.plugin.youdao
+file_url = https://api.getwox.com/media/plugin/095A6AE3A254432EBBD78F05A71D4981/youdao-2f3f079d-81c0-4ae6-a94c-8521982b1408.wox
+name = Youdao Translator
+username = scott
+language = csharp
+modified_date = 2015-11-07T19:26:24.310
+file_path = csharp\youdao-2f3f079d-81c0-4ae6-a94c-8521982b1408.wox
+
+
+file_name = Everything-c28bbebc-421f-4fa8-a409-892193c26634.wox
+github = https://github.com/qianlifeng/Wox.Plugin.Everything.git
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79D6C2A6E/Everything-c28bbebc-421f-4fa8-a409-892193c26634.wox
+name = Everything
+username = scott
+language = csharp
+modified_date = 2015-11-07T19:26:26.293
+file_path = csharp\Everything-c28bbebc-421f-4fa8-a409-892193c26634.wox
+
+
+file_name = bookmark-fe1f9ad7-cea6-4872-b69a-2eddd494512a.wox
+github = https://github.com/qianlifeng/Wox.Plugin.BrowserBookmark
+file_url = https://api.getwox.com/media/plugin/0ECADE17459B49F587BF81DC3A125110/bookmark-fe1f9ad7-cea6-4872-b69a-2eddd494512a.wox
+name = Browser Bookmarks
+username = scott
+language = csharp
+modified_date = 2015-11-07T19:26:30.231
+file_path = csharp\bookmark-fe1f9ad7-cea6-4872-b69a-2eddd494512a.wox
+
+
+file_name = Wox.Plugin.ProcessKiller-5991960e-418a-49ad-9fa1-e9b4dab2d23c.wox
+github = https://github.com/cxfksword/Wox.Plugin.ProcessKiller
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66EE0C79D6C2A6C/Wox.Plugin.ProcessKiller-5991960e-418a-49ad-9fa1-e9b4dab2d23c.wox
+name = Wox.Plugin.ProcessKiller
+username = scott
+language = csharp
+modified_date = 2015-10-15T09:37:12.874
+file_path = csharp\Wox.Plugin.ProcessKiller-5991960e-418a-49ad-9fa1-e9b4dab2d23c.wox
+
+
+file_name = Wox.Plugin.Runner-e3ebbdcb-19c2-416c-809a-6f050a12b900.wox
+github = https://github.com/jessebarocio/Wox.Plugin.Runner
+file_url = https://api.getwox.com/media/plugin/176690627AB54C8381A7FD99A3519F42/Wox.Plugin.Runner-e3ebbdcb-19c2-416c-809a-6f050a12b900.wox
+name = Wox.Plugin.Runner
+username = jessebarocio
+language = csharp
+modified_date = 2015-10-15T02:26:20.748
+file_path = csharp\Wox.Plugin.Runner-e3ebbdcb-19c2-416c-809a-6f050a12b900.wox
+
+
+file_name = PowerPlan-93628666-b473-4f51-9e61-d83125ac2985.wox
+github = https://github.com/caoyue/Wox.Plugin.PowerPlan
+file_url = https://api.getwox.com/media/plugin/054D2B10208B7D18D484D69063E64245/PowerPlan-93628666-b473-4f51-9e61-d83125ac2985.wox
+name = PowerPlan
+username = caoyue
+language = csharp
+modified_date = 2015-01-27T11:45:20.892
+file_path = csharp\PowerPlan-93628666-b473-4f51-9e61-d83125ac2985.wox
+
+
+file_name = clipboard-cb75c312-0b80-4201-a226-5672a4a71447.wox
+github = https://github.com/qianlifeng/Wox.Plugin.ClipboardManager
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79D6C2A6C/clipboard-cb75c312-0b80-4201-a226-5672a4a71447.wox
+name = Clipboard History
+username = scott
+language = csharp
+modified_date = 2015-11-07T19:26:35.345
+file_path = csharp\clipboard-cb75c312-0b80-4201-a226-5672a4a71447.wox
+
+
+file_name = Wox.Plugin.SimpleClock-9dc30b5a-10a7-4182-8ccc-43d1b884e1d6-db7e7159-5398-459e-9af4-37f250cc2a87.wox
+github = https://github.com/lances101/Wox.Plugin.SimpleClock
+file_url = https://api.getwox.com/media/plugin/82DA4FBBDCFC47A0B95156213A69441E/Wox.Plugin.SimpleClock-9dc30b5a-10a7-4182-8ccc-43d1b884e1d6-db7e7159-5398-459e-9af4-37f250cc2a87.wox
+name = Wox.Plugin.SimpleClock
+username = boromak
+language = csharp
+modified_date = 2015-11-12T02:21:59.947
+file_path = csharp\Wox.Plugin.SimpleClock-9dc30b5a-10a7-4182-8ccc-43d1b884e1d6-db7e7159-5398-459e-9af4-37f250cc2a87.wox
+
+
+file_name = RemoveUSB-e5f0ea30-08c4-476a-9583-8b931896a489.wox
+github = https://github.com/allanpk716/RemoveUSB
+file_url = https://api.getwox.com/media/plugin/164401726DC3442A91FE555819832A79/RemoveUSB-e5f0ea30-08c4-476a-9583-8b931896a489.wox
+name = Remove USB
+username = scott
+language = csharp
+modified_date = 2015-10-15T09:37:19.151
+file_path = csharp\RemoveUSB-e5f0ea30-08c4-476a-9583-8b931896a489.wox
+
+
+file_name = Wox.Plugin.KickassTorrent-95bb9266-3844-4bef-a057-82ef4692e09d.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/13F6E017E889C82D4BAB954BB1E0D19C/Wox.Plugin.KickassTorrent-95bb9266-3844-4bef-a057-82ef4692e09d.wox
+name = KickassTorrents
+username = nauer
+language = csharp
+modified_date = 2015-10-17T05:14:05.634
+file_path = csharp\Wox.Plugin.KickassTorrent-95bb9266-3844-4bef-a057-82ef4692e09d.wox
+
+
+file_name = closescreen-a28a8b43-ecae-4647-91a0-ce013bb2febb.wox
+github = https://github.com/WoxPlugins/CloseScreen
+file_url = https://api.getwox.com/media/plugin/4F5090921D094453AAD0555A133ABBAF/closescreen-a28a8b43-ecae-4647-91a0-ce013bb2febb.wox
+name = Close Screen
+username = scott
+language = csharp
+modified_date = 2015-10-06T00:43:22.434
+file_path = csharp\closescreen-a28a8b43-ecae-4647-91a0-ce013bb2febb.wox
+
+
+file_name = Currency Converter-e783e111-b3a5-4353-88d5-1591eae7be0f.wox
+github = https://github.com/Glassound/Currency-Converter
+file_url = https://api.getwox.com/media/plugin/33D2C23B084D411DB64FE0C59D6C7A4H/Currency Converter-e783e111-b3a5-4353-88d5-1591eae7be0f.wox
+name = Currency Converter
+username = glassound
+language = python
+modified_date = 2015-11-08T07:04:12.774
+file_path = python\Currency Converter-e783e111-b3a5-4353-88d5-1591eae7be0f.wox
+
+
+file_name = Translation-30b4cb46-7ba9-4fdb-9881-167aa0b0de09.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79E6C2A6H/Translation-30b4cb46-7ba9-4fdb-9881-167aa0b0de09.wox
+name = Translate
+username = armaldio
+language = csharp
+modified_date = 2015-11-08T07:05:16.806
+file_path = csharp\Translation-30b4cb46-7ba9-4fdb-9881-167aa0b0de09.wox
+
+
+file_name = Wox.Plugin.Switcheroo-74f74224-547e-40bf-a6bd-0425386ced0f.wox
+github = https://github.com/Wox-launcher/Wox.Plugin.Switcheroo
+file_url = https://api.getwox.com/media/plugin/DB634BE6F3D34F6D9D64F7C2AEE3ECEC/Wox.Plugin.Switcheroo-74f74224-547e-40bf-a6bd-0425386ced0f.wox
+name = Switcheroo for Wox
+username = boromak
+language = csharp
+modified_date = 2015-11-05T07:18:11.479
+file_path = csharp\Wox.Plugin.Switcheroo-74f74224-547e-40bf-a6bd-0425386ced0f.wox
+
+
+file_name = Roman Numerals-fdd25897-092b-482c-8ecb-b97cbca017a8.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/a847014667d411e59d70feff819cdc9f/Roman Numerals-fdd25897-092b-482c-8ecb-b97cbca017a8.wox
+name = Roman Numerals
+username = glassound
+language = csharp
+modified_date = 2015-10-04T02:01:32.863
+file_path = csharp\Roman Numerals-fdd25897-092b-482c-8ecb-b97cbca017a8.wox
+
+
+file_name = Wox.Plugin.OpenInFileZilla-v1.0-46df561f-9756-46ad-a7d9-e75ebc4d50ce.wox
+github = https://github.com/roose/Wox.Plugin.OpenInFileZilla
+file_url = https://api.getwox.com/media/plugin/D324E1FDA1F643CE991E5D83E3367C7A/Wox.Plugin.OpenInFileZilla-v1.0-46df561f-9756-46ad-a7d9-e75ebc4d50ce.wox
+name = Open in Filezilla
+username = roose
+language = python
+modified_date = 2014-12-28T14:47:25.644
+file_path = python\Wox.Plugin.OpenInFileZilla-v1.0-46df561f-9756-46ad-a7d9-e75ebc4d50ce.wox
+
+
+file_name = Wox.Shadowsocks-322196bf-b473-4853-9353-0586ff75eff7.wox
+github = https://github.com/qianlifeng/Wox.Plugin.Shadowsocks
+file_url = https://api.getwox.com/media/plugin/D2D3C24A684D411DB66FE1B89D6C3B1B/Wox.Shadowsocks-322196bf-b473-4853-9353-0586ff75eff7.wox
+name = Shadowsocks for windows
+username = scott
+language = python
+modified_date = 2014-12-10T20:30:56.724
+file_path = python\Wox.Shadowsocks-322196bf-b473-4853-9353-0586ff75eff7.wox
+
+
+file_name = dash.doc-de7264a4-35d5-43a1-8d4f-29e0af6c7be5.wox
+github = https://github.com/qianlifeng/Wox.Plugin.Doc
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79D6C2A6B/dash.doc-de7264a4-35d5-43a1-8d4f-29e0af6c7be5.wox
+name = Dash.Doc
+username = scott
+language = csharp
+modified_date = 2014-12-28T21:34:32.976
+file_path = csharp\dash.doc-de7264a4-35d5-43a1-8d4f-29e0af6c7be5.wox
+
+
+file_name = hosts-75235fbc-529d-4a8d-8e3a-168a9d37ad34.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/3c264c40a64311e4892e005056c00008/hosts-75235fbc-529d-4a8d-8e3a-168a9d37ad34.wox
+name = Hosts
+username = icuy
+language = python
+modified_date = 2015-10-06T00:51:55.338
+file_path = python\hosts-75235fbc-529d-4a8d-8e3a-168a9d37ad34.wox
+
+
+file_name = Wox.Plugin.UrlEncode-1.0-3124255f-62d2-42c7-82b3-b762154e2215.wox
+github = https://github.com/cxfksword/Wox.Plugin.UrlEncode
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66EE0C79D6C2A7C/Wox.Plugin.UrlEncode-1.0-3124255f-62d2-42c7-82b3-b762154e2215.wox
+name = Wox.Plugin.UrlEncode
+username = scott
+language = csharp
+modified_date = 2015-04-02T06:02:03.637
+file_path = csharp\Wox.Plugin.UrlEncode-1.0-3124255f-62d2-42c7-82b3-b762154e2215.wox
+
+
+file_name = Wox.Plugin.CopyFiles-ee054d41-b057-499e-be95-df77665e8f47.wox
+github = https://github.com/hdkn235/Wox.Plugin.CopyFiles
+file_url = https://api.getwox.com/media/plugin/AAC650ADFDA14F8795F1E12920CF0335/Wox.Plugin.CopyFiles-ee054d41-b057-499e-be95-df77665e8f47.wox
+name = CopyFiles
+username = rainbirda
+language = csharp
+modified_date = 2015-04-10T20:58:23.361
+file_path = csharp\Wox.Plugin.CopyFiles-ee054d41-b057-499e-be95-df77665e8f47.wox
+
+
+file_name = Wox.Plugin.Dict-cae212c5-636f-4305-a0b2-4178aedd41b0.wox
+github = https://github.com/Langjun/wox.plugin.dict
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79D6C2A6G/Wox.Plugin.Dict-cae212c5-636f-4305-a0b2-4178aedd41b0.wox
+name = DICT
+username = langjun
+language = python
+modified_date = 2015-06-22T20:18:12.119
+file_path = python\Wox.Plugin.Dict-cae212c5-636f-4305-a0b2-4178aedd41b0.wox
+
+
+file_name = Wox.Plugin.Yify_1.0.0-d505848d-6109-47df-9209-763bd01d9a37.wox
+github = https://github.com/JohnTheGr8/Wox.Plugin.Yify
+file_url = https://api.getwox.com/media/plugin/25B212E13AAA44C3A30CEE1B0F713812/Wox.Plugin.Yify_1.0.0-d505848d-6109-47df-9209-763bd01d9a37.wox
+name = Wox.Plugin.Yify
+username = John
+language = csharp
+modified_date = 2015-07-22T23:28:23.870
+file_path = csharp\Wox.Plugin.Yify_1.0.0-d505848d-6109-47df-9209-763bd01d9a37.wox
+
+
+file_name = Stock Checker-4c6c2968-c985-4d62-8db4-e302546b52f7.wox
+github = https://github.com/Glassound/Stock-Checker
+file_url = https://api.getwox.com/media/plugin/11D2C29B084D414DB64FE0C59D6C7A4H/Stock Checker-4c6c2968-c985-4d62-8db4-e302546b52f7.wox
+name = Stock Checker
+username = glassound
+language = python
+modified_date = 2015-10-04T02:01:25.689
+file_path = python\Stock Checker-4c6c2968-c985-4d62-8db4-e302546b52f7.wox
+
+
+file_name = Wox.Plugin.Putty-1.0.1-e32e3599-1be9-4994-80b3-7453cae37261.wox
+github = https://github.com/kosz78/wox.plugin.putty
+file_url = https://api.getwox.com/media/plugin/54A6672C06E047A48A7D88C78FA5F13E/Wox.Plugin.Putty-1.0.1-e32e3599-1be9-4994-80b3-7453cae37261.wox
+name = Wox.Plugin.Putty
+username = kos
+language = csharp
+modified_date = 2014-12-19T18:22:27.662
+file_path = csharp\Wox.Plugin.Putty-1.0.1-e32e3599-1be9-4994-80b3-7453cae37261.wox
+
+
+file_name = Wox.Plugin.IPAddress-275940ee-7ada-4a8a-b874-309e6034f39f.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/E2D2C23B084D41D1B6F60EC79D62CAH6/Wox.Plugin.IPAddress-275940ee-7ada-4a8a-b874-309e6034f39f.wox
+name = IP Address
+username = ishu3101
+language = csharp
+modified_date = 2015-10-06T00:50:12.618
+file_path = csharp\Wox.Plugin.IPAddress-275940ee-7ada-4a8a-b874-309e6034f39f.wox
+
+
+file_name = Wox.Plugin.ImgurScreenshot-c7538480-1b86-4753-9950-717a30f0c67a.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/D41D8CD98F00B204E9800998ECF8427E/Wox.Plugin.ImgurScreenshot-c7538480-1b86-4753-9950-717a30f0c67a.wox
+name = ImgurScreenshot
+username = nauer
+language = csharp
+modified_date = 2015-10-17T05:13:55.963
+file_path = csharp\Wox.Plugin.ImgurScreenshot-c7538480-1b86-4753-9950-717a30f0c67a.wox
+
+
+file_name = Reddit Reader-dd21c7c9-c161-4616-9a92-6e1628015bef.wox
+github = https://github.com/Glassound/Reddit-Reader
+file_url = https://api.getwox.com/media/plugin/77D2C27B084D414DB64FE0C79D6C7A4H/Reddit Reader-dd21c7c9-c161-4616-9a92-6e1628015bef.wox
+name = Reddit Reader
+username = glassound
+language = python
+modified_date = 2015-10-11T02:58:42.601
+file_path = python\Reddit Reader-dd21c7c9-c161-4616-9a92-6e1628015bef.wox
+
+
+file_name = wox-plugin-huasing-c3505fe5-c8ed-4e93-b6a4-9396a5e16c66.wox
+github = https://github.com/shuson/wox-plugin-huasing
+file_url = https://api.getwox.com/media/plugin/a9cd578088f511e5b07e851f228907e3/wox-plugin-huasing-c3505fe5-c8ed-4e93-b6a4-9396a5e16c66.wox
+name = Huasing News
+username = nevermoi
+language = python
+modified_date = 2015-11-12T14:21:59.958
+file_path = python\wox-plugin-huasing-c3505fe5-c8ed-4e93-b6a4-9396a5e16c66.wox
+
+
+file_name = v2ex-b798c197-83a5-4de9-adf5-bb7b4d09e8af.wox
+github = https://github.com/wenLiangcan/V2EX.wox
+file_url = https://api.getwox.com/media/plugin/3D008F00CFD24DAA89A35161D72E8EF7/v2ex-b798c197-83a5-4de9-adf5-bb7b4d09e8af.wox
+name = V2EX
+username = wenLiangcan
+language = python
+modified_date = 2015-10-16T00:55:03.823
+file_path = python\v2ex-b798c197-83a5-4de9-adf5-bb7b4d09e8af.wox
+
+
+file_name = hack news-0e7dd930-a4b3-468a-8388-e6d5101e4888.wox
+github = https://github.com/qianlifeng/Wox.Plugin.HackerNews
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79D6C1B7H/hack news-0e7dd930-a4b3-468a-8388-e6d5101e4888.wox
+name = Hacker News
+username = scott
+language = python
+modified_date = 2014-12-18T20:30:53.440
+file_path = python\hack news-0e7dd930-a4b3-468a-8388-e6d5101e4888.wox
+
+
+file_name = DiskSpace-d2bd1a97-032c-47ce-ae6e-034247be3f25.wox
+github = https://github.com/roose/Wox.Plugin.DiskSpace
+file_url = https://api.getwox.com/media/plugin/9FCC63F6896144EC8188DEC03FA12C82/DiskSpace-d2bd1a97-032c-47ce-ae6e-034247be3f25.wox
+name = Wox.Plugin.DiskSpace
+username = scott
+language = python
+modified_date = 2015-02-10T23:03:53.204
+file_path = python\DiskSpace-d2bd1a97-032c-47ce-ae6e-034247be3f25.wox
+
+
+file_name = Wox.Plugin.OpenCMD-1.0.1-a8d5f3db-b708-47f7-acce-9890617609ed.wox
+github = https://github.com/cxfksword/Wox.Plugin.OpenCMD
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB99EE0C79D6C2A6C/Wox.Plugin.OpenCMD-1.0.1-a8d5f3db-b708-47f7-acce-9890617609ed.wox
+name = Wox.Plugin.OpenCMD
+username = cxfksword
+language = csharp
+modified_date = 2015-09-14T01:48:30.896
+file_path = csharp\Wox.Plugin.OpenCMD-1.0.1-a8d5f3db-b708-47f7-acce-9890617609ed.wox
+
+
+file_name = Wox.Plugin.Timestamp-1.0-4d9c8352-c081-4aca-80d3-c10e167ae5b1.wox
+github = https://github.com/cxfksword/Wox.Plugin.Timestamp
+file_url = https://api.getwox.com/media/plugin/8d80430bbaeb4e49a002213c3bd88c66/Wox.Plugin.Timestamp-1.0-4d9c8352-c081-4aca-80d3-c10e167ae5b1.wox
+name = Wox.Plugin.Timestamp
+username = cxfksword
+language = csharp
+modified_date = 2015-09-15T23:11:06.617
+file_path = csharp\Wox.Plugin.Timestamp-1.0-4d9c8352-c081-4aca-80d3-c10e167ae5b1.wox
+
+
+file_name = Wox.Plugin.WeiboPicBed-1.0-72101770-5a33-4258-bb49-03afc84a0eb2.wox
+github = https://github.com/cxfksword/Wox.Plugin.WeiboPicBed
+file_url = https://api.getwox.com/media/plugin/06cc36800f9648dfa588435e48f39388/Wox.Plugin.WeiboPicBed-1.0-72101770-5a33-4258-bb49-03afc84a0eb2.wox
+name = Wox.Plugin.WeiboPicBed
+username = cxfksword
+language = csharp
+modified_date = 2015-09-21T00:27:28.955
+file_path = csharp\Wox.Plugin.WeiboPicBed-1.0-72101770-5a33-4258-bb49-03afc84a0eb2.wox
+
+
+file_name = Wox.Plugin.Weather-21670e03-f735-4289-b00f-96c7e5bcafa4.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/D2E3C23B084D411DB66FE0C79D6C2A6H/Wox.Plugin.Weather-21670e03-f735-4289-b00f-96c7e5bcafa4.wox
+name = Weather
+username = kobe
+language = csharp
+modified_date = 2015-10-03T01:50:57.181
+file_path = csharp\Wox.Plugin.Weather-21670e03-f735-4289-b00f-96c7e5bcafa4.wox
+
+
+file_name = wox-plugin-qwl-b4d17d4e-93fb-4bd7-af0e-f3a64f1d71a8.wox
+github = https://github.com/shuson/wox-plugin-qwl
+file_url = https://api.getwox.com/media/plugin/fe677e7089cb11e5a7dc851f228907e3/wox-plugin-qwl-b4d17d4e-93fb-4bd7-af0e-f3a64f1d71a8.wox
+name = QWL
+username = nevermoi
+language = python
+modified_date = 2015-11-13T14:02:24.884
+file_path = python\wox-plugin-qwl-b4d17d4e-93fb-4bd7-af0e-f3a64f1d71a8.wox
+
+
+file_name = pidgin-b3a981a5-2725-4b61-9f5c-a87c81d4999b.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/7e5273b97cd14e53892ae830131d9f23/pidgin-b3a981a5-2725-4b61-9f5c-a87c81d4999b.wox
+name = Pidgin
+username = scott
+language = python
+modified_date = 2014-12-10T20:24:57.190
+file_path = python\pidgin-b3a981a5-2725-4b61-9f5c-a87c81d4999b.wox
+
+
+file_name = wox-forvo-f27ec964-619f-46a9-bb9f-a1e216d3e74f.wox
+github = https://github.com/BBOOXX/wox-forvo
+file_url = https://api.getwox.com/media/plugin/321BB0EC452ACCEA2B4F892028E1B5A1/wox-forvo-f27ec964-619f-46a9-bb9f-a1e216d3e74f.wox
+name = Forvo
+username = Box
+language = python
+modified_date = 2015-11-18T19:16:02.092
+file_path = python\wox-forvo-f27ec964-619f-46a9-bb9f-a1e216d3e74f.wox
+
+
+file_name = Random Password Generator-55ee8499-d8d8-48f0-871e-d445684ba29e.wox
+github = https://github.com/Xpktro/Wox.RandomPasswordGenerator
+file_url = https://api.getwox.com/media/plugin/D5402D027F5A4FB6A757AC0C58CD2FFF/Random Password Generator-55ee8499-d8d8-48f0-871e-d445684ba29e.wox
+name = Random Password Generator
+username = Xpktro
+language = python
+modified_date = 2015-01-28T11:27:49.051
+file_path = python\Random Password Generator-55ee8499-d8d8-48f0-871e-d445684ba29e.wox
+
+
+file_name = Wox.Plugin.CanIUse-96ca313f-9c28-46d5-80f5-e5112e77c3ba.wox
+github = https://github.com/roose/Wox.Plugin.CanIUse
+file_url = https://api.getwox.com/media/plugin/E234E3FBF4294AF9A0B78F75BD89EDD1/Wox.Plugin.CanIUse-96ca313f-9c28-46d5-80f5-e5112e77c3ba.wox
+name = caniuse
+username = roose
+language = python
+modified_date = 2014-12-28T21:44:48.304
+file_path = python\Wox.Plugin.CanIUse-96ca313f-9c28-46d5-80f5-e5112e77c3ba.wox
+
+
+file_name = Wox.Plugin.DoubanMovie-c0318e2c-0c2a-4c8c-a017-9d291b847d1d.wox
+github = https://github.com/qianlifeng/wox.plugin.doubanmovie
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79D6C2A6D/Wox.Plugin.DoubanMovie-c0318e2c-0c2a-4c8c-a017-9d291b847d1d.wox
+name = 豆瓣电影
+username = scott
+language = python
+modified_date = 2015-02-03T12:42:00.825
+file_path = python\Wox.Plugin.DoubanMovie-c0318e2c-0c2a-4c8c-a017-9d291b847d1d.wox
+
+
+file_name = Wox.Plugin.Spotify_1.0.3-f58dee78-4c70-48fb-8741-97bbabf2c7a4.wox
+github = https://github.com/JohnTheGr8/Wox.Plugin.Spotify
+file_url = https://api.getwox.com/media/plugin/D2D2C23B084D411DB66FE0C79D6C2A6A/Wox.Plugin.Spotify_1.0.3-f58dee78-4c70-48fb-8741-97bbabf2c7a4.wox
+name = Wox.Spotify
+username = John
+language = csharp
+modified_date = 2015-01-21T07:45:52.938
+file_path = csharp\Wox.Plugin.Spotify_1.0.3-f58dee78-4c70-48fb-8741-97bbabf2c7a4.wox
+
+
+file_name = Wox.Skype-ad115521-08cb-4421-8bf4-098afa72e57e.wox
+github = https://github.com/Ridermansb/wox.skype
+file_url = https://api.getwox.com/media/plugin/b9e1c0406e5d4e91bede906c68ea7bdd/Wox.Skype-ad115521-08cb-4421-8bf4-098afa72e57e.wox
+name = Wox.Skype
+username = ridermansb
+language = csharp
+modified_date = 2015-04-06T17:37:51.411
+file_path = csharp\Wox.Skype-ad115521-08cb-4421-8bf4-098afa72e57e.wox
+
+
+file_name = wox-plugin-sgcn-99e96fa8-91f5-4c88-851f-3b0a9c43c780.wox
+github = https://github.com/shuson/wox-plugin-sgcn/
+file_url = https://api.getwox.com/media/plugin/a9cd578088f511e5b07e851f22j21s32/wox-plugin-sgcn-99e96fa8-91f5-4c88-851f-3b0a9c43c780.wox
+name = sgcn
+username = nevermoi
+language = python
+modified_date = 2015-11-13T13:51:37.465
+file_path = python\wox-plugin-sgcn-99e96fa8-91f5-4c88-851f-3b0a9c43c780.wox
+
+
+file_name = Wox.Plugin.Rom2Kana-969dea92-f7a0-418c-84c2-405007c43f3c.wox
+github = https://github.com/kraftydinosaur/Wox.Plugin.Rom2Kana
+file_url = https://api.getwox.com/media/plugin/8FF8F0DD3D4C4E12836C2AF2F6CD5559/Wox.Plugin.Rom2Kana-969dea92-f7a0-418c-84c2-405007c43f3c.wox
+name = Rom2Kana
+username = Krafty
+language = python
+modified_date = 2015-04-30T08:32:23.957
+file_path = python\Wox.Plugin.Rom2Kana-969dea92-f7a0-418c-84c2-405007c43f3c.wox
+
+
+file_name = Wox.Plugin.Kitty-51dc3e3c-002d-4244-8655-1eac46b91233.wox
+github = https://github.com/qianlifeng/Wox.Plugin.Kitty
+file_url = https://api.getwox.com/media/plugin/1a4d4dd6915a4ec4932763b8ebe8aab6/Wox.Plugin.Kitty-51dc3e3c-002d-4244-8655-1eac46b91233.wox
+name = kitty
+username = scott
+language = python
+modified_date = 2014-12-19T18:22:15.583
+file_path = python\Wox.Plugin.Kitty-51dc3e3c-002d-4244-8655-1eac46b91233.wox
+
+
+file_name = Wox.Plugin.Choco-294e8bdc-0c0a-4465-928b-41c11c62f86f.wox
+github = https://github.com/blastdan/Wox.Plugin.Choco
+file_url = https://api.getwox.com/media/plugin/26ce9d10d27c11e488300800200c9a66/Wox.Plugin.Choco-294e8bdc-0c0a-4465-928b-41c11c62f86f.wox
+name = Chocolatey
+username = Blastdan
+language = csharp
+modified_date = 2015-07-13T10:00:36.581
+file_path = csharp\Wox.Plugin.Choco-294e8bdc-0c0a-4465-928b-41c11c62f86f.wox
+
+
+file_name = wox.plugin.timezone-55eee7e7-914b-441d-ba4f-aec132f81ce7.wox
+github = https://github.com/arkraft/Wox.Plugin.Timezone
+file_url = https://api.getwox.com/media/plugin/ARTUR23B084D422DB66FE0C79D6C2A6A/wox.plugin.timezone-55eee7e7-914b-441d-ba4f-aec132f81ce7.wox
+name = Wox.Plugin.Timezone
+username = scott
+language = csharp
+modified_date = 2015-02-10T23:13:31.964
+file_path = csharp\wox.plugin.timezone-55eee7e7-914b-441d-ba4f-aec132f81ce7.wox
+
+
+file_name = xshell-be0734ca-d58b-4b8d-a4c5-011f984e9424.wox
+github = 
+file_url = https://api.getwox.com/media/plugin/1a4d4dd6765a4ec4932763b8ebe8aac7/xshell-be0734ca-d58b-4b8d-a4c5-011f984e9424.wox
+name = xshell
+username = scott
+language = python
+modified_date = 2015-07-22T12:06:41.247
+file_path = python\xshell-be0734ca-d58b-4b8d-a4c5-011f984e9424.wox
