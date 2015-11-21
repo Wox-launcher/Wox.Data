@@ -18,12 +18,13 @@ namespace Wox.Data
         {
             var woxPlugin = ModuleDefinition.ReadModule(module);
             var targetTypes = woxPlugin.Types.Where(t => t.IsPublic).ToList();
-            var targetMethods = targetTypes.SelectMany(t => t.Methods).Where(m => m.IsPublic);
-            var targetFields = targetTypes.SelectMany(t => t.Fields).Where(f => f.IsPublic);
-            var targetInterface = targetTypes.Where(t => t.IsInterface && t.IsPublic);
+            var targetMethods = targetTypes.SelectMany(t => t.Methods).Where(m => m.IsPublic).ToList();
+            var targetFields = targetTypes.SelectMany(t => t.Fields).Where(f => f.IsPublic).ToList();
+            var targetInterface = targetTypes.Where(t => t.IsInterface && t.IsPublic).ToList();
 
             var types = Types();
             var instructions = Instructions(types);
+
             var unusedMethods = UnusedMember<MethodReference>(instructions, targetMethods);
             var unusedFields = UnusedMember<FieldReference>(instructions, targetFields);
             var unusedInterfaces = UnusedInterfaces(types, targetInterface);
@@ -31,11 +32,18 @@ namespace Wox.Data
             var formattedUnusedFieleds = TableFromDictionary(unusedFields);
             var formattedUnusedInterfaces = string.Join(Environment.NewLine, unusedInterfaces.Select(i => $"|`{i.FullName}`|").ToList());
 
+            var usedMethods = UsedMember<MethodReference>(instructions, targetMethods);
+            var usedFields = UsedMember<FieldReference>(instructions, targetFields);
+            var usedInterfaces = UsedInterfaces(types, targetInterface);
+            var formattedUsedMethods = TableFromDictionary(usedMethods);
+            var formattedUsedFieleds = TableFromDictionary(usedFields);
+            var formattedUsedInterfaces = string.Join(Environment.NewLine, usedInterfaces.Select(i => $"|`{i.FullName}`|").ToList());
         }
 
         private string TableFromDictionary(Dictionary<TypeReference, List<MemberReference>> dict)
         {
             string table = "";
+            if (dict == null || dict.Count == 0 ) return table;
             int firstColumnWidth = dict.Keys.Max(k => k.FullName.Length);
             int secondColumnWidth = dict.Values.SelectMany(v => v).Max(k => k.Name.Length);
             // + 2 is used for code block seperator: ` `
@@ -64,13 +72,28 @@ namespace Wox.Data
             return unused.ToList();
         }
 
+        private List<TypeReference> UsedInterfaces(IEnumerable<TypeDefinition> types, IEnumerable<TypeDefinition> targetInterface)
+        {
+            var interfaces = types.SelectMany(t => t.Interfaces);
+            var used = targetInterface.Intersect(interfaces, new MemberReferenceEqualityComparer()).
+                                         Select(m => m as TypeReference).Where(t => t != null);
+            return used.ToList();
+        }
 
         private Dictionary<TypeReference, List<MemberReference>> UnusedMember<T>(IEnumerable<Instruction> instructions, IEnumerable<MemberReference> targetMembers) where T : MemberReference
         {
             var memberReferences = instructions.Select(i => i.Operand as T).Where(o => o != null);
-            var unusedMember = targetMembers.Except(memberReferences, new MemberReferenceEqualityComparer()).
-                                      GroupBy(m => m.DeclaringType).ToDictionary(g => g.Key, g => g.ToList());
-            return unusedMember;
+            var unused = targetMembers.Except(memberReferences, new MemberReferenceEqualityComparer()).
+                                             GroupBy(m => m.DeclaringType).ToDictionary(g => g.Key, g => g.ToList());
+            return unused;    
+        }
+
+        private Dictionary<TypeReference, List<MemberReference>> UsedMember<T>(IEnumerable<Instruction> instructions, IEnumerable<MemberReference> targetMembers) where T : MemberReference
+        {
+            var memberReferences = instructions.Select(i => i.Operand as T).Where(o => o != null);
+            var used = targetMembers.Intersect(memberReferences, new MemberReferenceEqualityComparer()).
+                                             GroupBy(m => m.DeclaringType).ToDictionary(g => g.Key, g => g.ToList());
+            return used;
         }
 
         private List<Instruction> Instructions(IEnumerable<TypeDefinition> types)
