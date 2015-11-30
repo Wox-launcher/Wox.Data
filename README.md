@@ -1,9 +1,8 @@
 # Wox.Data
-Collect data for Wox plugins and do dome statistics
+Collect data for Wox plugins and do dome statistics - 11/30/2015
 
-# Used member analysis for `Wox.Plugin` (C#)
+# Used member analysis for `Wox.Plugin.dll` (C#)
 ## Used Methods
-
 | Type                                       | Member                      | Count |
 | ------------------------------------------ | --------------------------- | ----- |
 | `Wox.Plugin.IPublicAPI`                    | `ShowMsg`                   | 2     |
@@ -41,7 +40,6 @@ Collect data for Wox plugins and do dome statistics
 | `Wox.Plugin.WoxGlobalKeyboardEventHandler` | `.ctor`                     | 1     |
 
 ## Used Interfaces
-
 | Type                                | Count |
 | ----------------------------------- | ----- |
 | `Wox.Plugin.Features.IContextMenu`  | 1     |
@@ -51,7 +49,6 @@ Collect data for Wox plugins and do dome statistics
 | `Wox.Plugin.ISettingProvider`       | 5     |
 
 ## Used Types
-
 | Type                                       | Count |
 | ------------------------------------------ | ----- |
 | `Wox.Plugin.IPublicAPI`                    | 8     |
@@ -62,9 +59,8 @@ Collect data for Wox plugins and do dome statistics
 | `Wox.Plugin.SpecialKeyState`               | 1     |
 | `Wox.Plugin.WoxGlobalKeyboardEventHandler` | 1     |
 
-# Used member analysis for `Wox.Infrastructure` (C#)
+# Used member analysis for `Wox.Infrastructure.dll` (C#)
 ## Used Methods
-
 | Type                                       | Member         | Count |
 | ------------------------------------------ | -------------- | ----- |
 | `Wox.Infrastructure.FuzzyMatcher`          | `Create`       | 2     |
@@ -74,12 +70,13 @@ Collect data for Wox plugins and do dome statistics
 | `Wox.Infrastructure.Storage.BaseStorage`1\` | `get_Instance` | 5     |
 | `Wox.Infrastructure.Unidecoder`            | `Unidecode`    | 1     |
 
+## Used Interfaces
+
 ## Used Types
 | Type                                        | Count |
 | ------------------------------------------- | ----- |
 | `Wox.Infrastructure.FuzzyMatcher`           | 2     |
 | `Wox.Infrastructure.MatchResult`            | 1     |
-| `Wox.Infrastructure.Storage.BaseStorage`1`  | 5     |
-| `Wox.Infrastructure.Storage.JsonStrorage`1` | 5     |
+| `Wox.Infrastructure.Storage.BaseStorage`1\`  | 5     |
+| `Wox.Infrastructure.Storage.JsonStrorage`1\` | 5     |
 | `Wox.Infrastructure.Unidecoder`             | 1     |
-
