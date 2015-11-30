@@ -14,7 +14,7 @@ namespace Wox.Data
         const string DLLsDirectory = "DLLs";
         const string TargetDLLsDirectory = "TargetDLLs";
 
-        public void AnalysisTargetModule(string module)
+        public string AnalysisTargetModule(string module)
         {
             var targetModule = ModuleDefinition.ReadModule(module);
             var targetTypes = targetModule.Types.Where(t => t.IsPublic).ToList();
@@ -34,6 +34,14 @@ namespace Wox.Data
             var tableForMethods = Table(usedMethods);
             var tableForInterfaces = Table(usedInterfaces);
             var tableFroTypes = Table(usedTypes);
+            var result = $"# Used member analysis for `{module.Split('\\')[1]}` (C#){Environment.NewLine}" +
+                         $"## Used Methods{Environment.NewLine}" +
+                         $"{tableForMethods}{Environment.NewLine}" +
+                         $"## Used Interfaces{Environment.NewLine}" +
+                         $"{tableForInterfaces}{Environment.NewLine}" +
+                         $"## Used Types{Environment.NewLine}" +
+                         $"{tableFroTypes}{Environment.NewLine}";
+            return result;
         }
 
         private string Table(Dictionary<MethodDefinition, List<MethodReference>> dict)
@@ -113,9 +121,9 @@ namespace Wox.Data
         {
             var references = types.SelectMany(t => t.Interfaces);
             var result = from r in references
-                       let def = definitions.FirstOrDefault(d => d.FullName == r.FullName)
-                       where def != null
-                       group r by def;
+                         let def = definitions.FirstOrDefault(d => d.FullName == r.FullName)
+                         where def != null
+                         group r by def;
             return result.ToDictionary(g => g.Key, g => g.ToList());
         }
 
@@ -159,8 +167,9 @@ namespace Wox.Data
         public static void Main(string[] args)
         {
             var p = new Program();
-            p.AnalysisTargetModule(Path.Combine(TargetDLLsDirectory, "Wox.Plugin.dll"));
-            p.AnalysisTargetModule(Path.Combine(TargetDLLsDirectory, "Wox.Infrastructure.dll"));
+            var r1 = p.AnalysisTargetModule(Path.Combine(TargetDLLsDirectory, "Wox.Plugin.dll"));
+            var r2 = p.AnalysisTargetModule(Path.Combine(TargetDLLsDirectory, "Wox.Infrastructure.dll"));
+            var result = r1 + r2;
         }
     }
 
