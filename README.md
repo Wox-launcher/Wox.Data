@@ -70,8 +70,8 @@ Collect data for Wox plugins and do dome statistics
 | `Wox.Infrastructure.FuzzyMatcher`          | `Create`       | 2     |
 | `Wox.Infrastructure.FuzzyMatcher`          | `Evaluate`     | 1     |
 | `Wox.Infrastructure.MatchResult`           | `get_Score`    | 1     |
-| `Wox.Infrastructure.Storage.BaseStorage`1` | `Save`         | 4     |
-| `Wox.Infrastructure.Storage.BaseStorage`1` | `get_Instance` | 5     |
+| `Wox.Infrastructure.Storage.BaseStorage`1\` | `Save`         | 4     |
+| `Wox.Infrastructure.Storage.BaseStorage`1\` | `get_Instance` | 5     |
 | `Wox.Infrastructure.Unidecoder`            | `Unidecode`    | 1     |
 
 ## Used Types
